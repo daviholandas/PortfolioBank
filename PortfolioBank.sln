@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioBank.TradeCategorization", "src\PortfolioBank.TradeCategorization\PortfolioBank.TradeCategorization.csproj", "{85825E9D-AC46-417C-A807-85CAA740A2CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioBank.TradeCategorization.UnitTests", "tests\PortfolioBank.TradeCategorization.UnitTests\PortfolioBank.TradeCategorization.UnitTests.csproj", "{28815BD1-B968-47B5-BF8D-0FA421F1EF7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6BCCE7D9-9B02-4048-8CEF-13BD00383524}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A52DBC19-92B4-458D-A7E6-FCCF8DE036EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioBank.Application", "src\PortfolioBank.Application\PortfolioBank.Application.csproj", "{AB2540DE-7DF4-47BC-BC2A-B6919BAD28BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85825E9D-AC46-417C-A807-85CAA740A2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85825E9D-AC46-417C-A807-85CAA740A2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85825E9D-AC46-417C-A807-85CAA740A2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85825E9D-AC46-417C-A807-85CAA740A2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28815BD1-B968-47B5-BF8D-0FA421F1EF7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28815BD1-B968-47B5-BF8D-0FA421F1EF7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28815BD1-B968-47B5-BF8D-0FA421F1EF7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28815BD1-B968-47B5-BF8D-0FA421F1EF7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2540DE-7DF4-47BC-BC2A-B6919BAD28BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2540DE-7DF4-47BC-BC2A-B6919BAD28BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2540DE-7DF4-47BC-BC2A-B6919BAD28BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2540DE-7DF4-47BC-BC2A-B6919BAD28BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28815BD1-B968-47B5-BF8D-0FA421F1EF7B} = {A52DBC19-92B4-458D-A7E6-FCCF8DE036EF}
+		{85825E9D-AC46-417C-A807-85CAA740A2CC} = {6BCCE7D9-9B02-4048-8CEF-13BD00383524}
+		{AB2540DE-7DF4-47BC-BC2A-B6919BAD28BB} = {6BCCE7D9-9B02-4048-8CEF-13BD00383524}
+	EndGlobalSection
+EndGlobal
