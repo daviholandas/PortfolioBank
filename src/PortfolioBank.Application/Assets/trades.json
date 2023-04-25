@@ -1,6 +1,6 @@
 [
-  { "Value": 2000000, "ClientSector": "Private" },
-  { "Value": 400000, "ClientSector": "Public" },
-  { "Value": 500000, "ClientSector": "Public" },
+  { "Value": 4000000, "ClientSector": "Private" },
+  { "Value": 600000, "ClientSector": "Public" },
+  { "Value": 55000, "ClientSector": "Public" },
   { "Value": 3000000, "ClientSector": "Public" }
 ]

@@ -6,7 +6,7 @@ public class LowRiskCategory : CategoryStrategy
 
     public override bool IsEligible(ITrade trade)
     {
-        return trade.Value < TradesValue && trade.ClientSector == Sector.Public;
+        return trade.Value < TradeMaxValue && trade.ClientSector == Sector.Public;
     }
 }
 
@@ -16,7 +16,7 @@ public class MediumRiskCategory : CategoryStrategy
 
     public override bool IsEligible(ITrade trade)
     {
-        return trade.Value >= TradesValue && trade.ClientSector == Sector.Public;
+        return trade.Value >= TradeMaxValue && trade.ClientSector == Sector.Public;
     }
 }
 
@@ -26,6 +26,6 @@ public class HighRiskCategory : CategoryStrategy
 
     public override bool IsEligible(ITrade trade)
     {
-        return trade.Value >= TradesValue && trade.ClientSector == Sector.Private;
+        return trade.Value >= TradeMaxValue && trade.ClientSector == Sector.Private;
     }
 }

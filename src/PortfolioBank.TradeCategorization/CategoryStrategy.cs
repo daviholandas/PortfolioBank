@@ -4,7 +4,7 @@ public abstract class CategoryStrategy
 {
     public virtual string CategoryName { get; } = string.Empty;
 
-    protected double TradesValue  
+    protected double TradeMaxValue  
         => 1_000_000;
     
     public abstract bool IsEligible(ITrade trade);
