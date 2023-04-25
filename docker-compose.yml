@@ -1,0 +1,6 @@
+﻿services:
+  portfoliobank:
+    image: portfoliobank
+    build:
+      context: .
+      dockerfile: src/PortfolioBank.Application/Dockerfile
